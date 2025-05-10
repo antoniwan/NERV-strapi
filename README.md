@@ -17,8 +17,8 @@ NERV is the central nervous system of a mythic creator's network. LOL
 
 ## 🗺️ Use Cases
 
-- Feed content to [StrongVault], your Obsidian-inspired public digital archive
-- Power rich media pages and glossaries for your branded projects
+- Feed content to [StrongVault], my Obsidian-inspired public digital archive
+- Power rich media pages and glossaries for my branded projects
 - Host universal social profiles, page content, and rituals across domains
 - Deliver structured data to frontends hosted on Vercel, Netlify, or GitHub Pages
 - Create internal or public APIs for collaborators, mentees, or automation tools
