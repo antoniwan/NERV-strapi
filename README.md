@@ -6,6 +6,22 @@ This is more than just a CMS.
 
 NERV is the central nervous system of a mythic creator's network. LOL
 
+## 🔧 Features (WIP/TO-DO!!!)
+
+- Content Types for Posts, Categories, Users, Pages, and Social Links
+- Multi-site support with siteId scoping for filtering pages/content
+- API-ready delivery (REST and GraphQL out of the box)
+- Markdown + Media Support for modern publishing workflows
+- User-based roles and relations for collaborative publishing
+- Headless delivery to Astro, React, static sites, or mobile apps
+
+## 🗺️ Use Cases
+
+- Feed content to [StrongVault], your Obsidian-inspired public digital archive
+- Power rich media pages and glossaries for your branded projects
+- Host universal social profiles, page content, and rituals across domains
+- Deliver structured data to frontends hosted on Vercel, Netlify, or GitHub Pages
+- Create internal or public APIs for collaborators, mentees, or automation tools
 
 ## 🚀 Getting Started
 
