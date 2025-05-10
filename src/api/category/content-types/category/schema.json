@@ -26,6 +26,11 @@
     },
     "description": {
       "type": "text"
+    },
+    "categoryEmoji": {
+      "type": "string",
+      "required": false,
+      "unique": false
     }
   }
 }
