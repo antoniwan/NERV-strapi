@@ -1,6 +1,11 @@
-# NERV Strapi Backend
+# 🧠 NERV — Networked Expressive Resource Vault
 
-A Strapi-based backend application for the NERV project.
+NERV is a centralized headless CMS built with Strapi, designed to power a constellation of websites, apps, services, and digital rituals. It serves as the sovereign backend for the Strong Hands, Soft Heart ecosystem — delivering structured content across domains in Markdown, HTML, and JSON via secure, flexible APIs.
+
+This is more than just a CMS.
+
+NERV is the central nervous system of a mythic creator's network. LOL
+
 
 ## 🚀 Getting Started
 
