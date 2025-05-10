@@ -1,60 +1,92 @@
-# 🚀 Getting started with Strapi
+# NERV Strapi Backend
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+A Strapi-based backend application for the NERV project.
 
-### `develop`
+## 🚀 Getting Started
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+### Prerequisites
 
+- Node.js >= 18.0.0 and <= 22.x.x
+- npm >= 6.0.0
+
+### Installation
+
+```bash
+npm install
 ```
+
+### Development
+
+Start your Strapi application with autoReload enabled:
+
+```bash
 npm run develop
 # or
 yarn develop
 ```
 
-### `start`
+### Production
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+Start your Strapi application with autoReload disabled:
 
-```
+```bash
 npm run start
 # or
 yarn start
 ```
 
-### `build`
+### Build
 
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
+Build your admin panel:
 
-```
+```bash
 npm run build
 # or
 yarn build
 ```
 
-## ⚙️ Deployment
+### Database Seeding
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
+To seed the database with example data:
+
+```bash
+npm run seed:example
+# or
+yarn seed:example
+```
+
+## ⚙️ Project Structure
 
 ```
-yarn strapi deploy
+src/
+├── api/          # API endpoints and controllers
+├── components/   # Reusable components
+├── extensions/   # Strapi extensions
+└── admin/        # Admin panel customizations
 ```
+
+## 📦 Dependencies
+
+- Strapi v5.13.0
+- React v18
+- TypeScript
+- SQLite (better-sqlite3)
+
+## 📝 License
+
+This project is licensed under the [Creative Commons Attribution 4.0 International License](LICENSE).
 
 ## 📚 Learn more
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation
+- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials
+- [Strapi blog](https://strapi.io/blog) - Official Strapi blog
 
 ## ✨ Community
 
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+- [Discord](https://discord.strapi.io) - Strapi community
+- [Forum](https://forum.strapi.io/) - Strapi forum
+- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - Curated list of Strapi resources
 
 ---
 
